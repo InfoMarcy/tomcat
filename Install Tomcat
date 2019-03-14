@@ -12,3 +12,6 @@ now run ./bin/startup.sh to start tomcat. When you see below message, it means t
 sh-3.2# ./bin/startup.sh 
 
 Now open a web browser, input http://localhost:8080/ in the url address input box. Click enter then you can see below web page.
+
+#INSTALL TOMCAT OVER SSL
+https://crunchify.com/step-by-step-guide-to-enable-https-or-ssl-correct-way-on-apache-tomcat-server-port-8443/
