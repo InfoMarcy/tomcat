@@ -21,3 +21,13 @@ https://crunchify.com/step-by-step-guide-to-enable-https-or-ssl-correct-way-on-a
 #COFIGURE ROUTES IN TOMCAT
 create a .htaccess file on the root of your shared Apache server.
 1. /Users/desarrolladorios1/tomcat/webapps/ROOT/.htaccess
+
+
+
+#START TOMCAT
+cd /Users/desarrolladorios1/tomcat/bin
+$ ./startup.sh
+
+#STOP TOMCAT
+cd /Users/desarrolladorios1/tomcat/bin
+$ ./shutdown.sh
