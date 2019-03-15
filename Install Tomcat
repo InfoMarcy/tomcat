@@ -15,3 +15,9 @@ Now open a web browser, input http://localhost:8080/ in the url address input bo
 
 #INSTALL TOMCAT OVER SSL
 https://crunchify.com/step-by-step-guide-to-enable-https-or-ssl-correct-way-on-apache-tomcat-server-port-8443/
+
+
+
+#COFIGURE ROUTES IN TOMCAT
+create a .htaccess file on the root of your shared Apache server.
+1. /Users/desarrolladorios1/tomcat/webapps/ROOT/.htaccess
