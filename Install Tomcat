@@ -22,6 +22,8 @@ https://crunchify.com/step-by-step-guide-to-enable-https-or-ssl-correct-way-on-a
 create a .htaccess file on the root of your shared Apache server.
 1. /Users/desarrolladorios1/tomcat/webapps/ROOT/.htaccess
 
+#Angular app.route
+export const routes: ModuleWithProviders  = RouterModule.forRoot(router, {useHash: true});
 
 
 #START TOMCAT
