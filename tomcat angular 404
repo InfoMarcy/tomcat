@@ -1,0 +1,31 @@
+1
+
+I got the solution to my question and i solved the problem.
+
+Here's the step that, how i resolved the problem.
+
+1) Created "WEB-INF/web.xml" in my angular src folder, the path is as follows
+
+Your_Folder/src/WEB-INF/web.xml
+2) In web.xml i added below lines,
+
+<web-app> 
+    <error-page> 
+        <error-code>404</error-code> 
+        <location>/index.html</location> 
+    </error-page> 
+</web-app>
+3) Add external folder into angular.json so can while building application it will be available into dist folder,
+
+In angular.json
+
+"assets": [ "src/assets","src/favicon.ico","src/WEB-INF" ]
+4) Build the application with below command,
+
+ng build --prod --base-href=/myApp/
+5) Rename the dist folder with base-href name
+
+6) Copy the dist or base-href folder and paste into
+
+apache-tomcat-8.5.37/webapps
+7) Start the tomcat and your application will run, even after refresh the browser.
